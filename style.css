@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    font-family: 'Acme', sans-serif;
+}
+body{
+    background-color: #BCF2F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Acme', sans-serif;
+}
+.container {
+    background-color: #006BFF;
+    width: 300px;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 7px;
+}
+
+.input-container {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    padding: 12px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000000;
+    border: none;
+}
+
+.input-container button {
+    padding: 10px;
+    background-color: #FFF100;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.input-container button:hover{
+    background-color: darkgoldenrod;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#todo-list li {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list li button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#todo-list li button:hover {
+    background-color: darkred;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
